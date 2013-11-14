@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6F85001835250400C3BAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F84FF1835250400C3BAD6 /* Foundation.framework */; };
+		4C6F85021835250400C3BAD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F85011835250400C3BAD6 /* CoreGraphics.framework */; };
+		4C6F85041835250400C3BAD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F85031835250400C3BAD6 /* UIKit.framework */; };
+		4C6F850A1835250400C3BAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F85081835250400C3BAD6 /* InfoPlist.strings */; };
+		4C6F850C1835250400C3BAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F850B1835250400C3BAD6 /* main.m */; };
+		4C6F85101835250400C3BAD6 /* SAHolidaysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F850F1835250400C3BAD6 /* SAHolidaysAppDelegate.m */; };
+		4C6F85121835250400C3BAD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F85111835250400C3BAD6 /* Images.xcassets */; };
+		4C6F85191835250400C3BAD6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F85181835250400C3BAD6 /* XCTest.framework */; };
+		4C6F851A1835250400C3BAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F84FF1835250400C3BAD6 /* Foundation.framework */; };
+		4C6F851B1835250400C3BAD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F85031835250400C3BAD6 /* UIKit.framework */; };
+		4C6F85231835250400C3BAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F85211835250400C3BAD6 /* InfoPlist.strings */; };
+		4C6F85251835250400C3BAD6 /* SAHolidaysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F85241835250400C3BAD6 /* SAHolidaysTests.m */; };
+		4C6F85311835256500C3BAD6 /* NSDate+SAHolidays.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F85301835256500C3BAD6 /* NSDate+SAHolidays.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6F851C1835250400C3BAD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6F84F41835250400C3BAD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6F84FB1835250400C3BAD6;
+			remoteInfo = SAHolidays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6F84FC1835250400C3BAD6 /* SAHolidays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAHolidays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F84FF1835250400C3BAD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6F85011835250400C3BAD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C6F85031835250400C3BAD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6F85071835250400C3BAD6 /* SAHolidays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SAHolidays-Info.plist"; sourceTree = "<group>"; };
+		4C6F85091835250400C3BAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6F850B1835250400C3BAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6F850D1835250400C3BAD6 /* SAHolidays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAHolidays-Prefix.pch"; sourceTree = "<group>"; };
+		4C6F850E1835250400C3BAD6 /* SAHolidaysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAHolidaysAppDelegate.h; sourceTree = "<group>"; };
+		4C6F850F1835250400C3BAD6 /* SAHolidaysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAHolidaysAppDelegate.m; sourceTree = "<group>"; };
+		4C6F85111835250400C3BAD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C6F85171835250400C3BAD6 /* SAHolidaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAHolidaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F85181835250400C3BAD6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4C6F85201835250400C3BAD6 /* SAHolidaysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SAHolidaysTests-Info.plist"; sourceTree = "<group>"; };
+		4C6F85221835250400C3BAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6F85241835250400C3BAD6 /* SAHolidaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAHolidaysTests.m; sourceTree = "<group>"; };
+		4C6F852F1835256500C3BAD6 /* NSDate+SAHolidays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SAHolidays.h"; sourceTree = "<group>"; };
+		4C6F85301835256500C3BAD6 /* NSDate+SAHolidays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SAHolidays.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6F84F91835250400C3BAD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F85021835250400C3BAD6 /* CoreGraphics.framework in Frameworks */,
+				4C6F85041835250400C3BAD6 /* UIKit.framework in Frameworks */,
+				4C6F85001835250400C3BAD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F85141835250400C3BAD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F85191835250400C3BAD6 /* XCTest.framework in Frameworks */,
+				4C6F851B1835250400C3BAD6 /* UIKit.framework in Frameworks */,
+				4C6F851A1835250400C3BAD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6F84F31835250400C3BAD6 = {
+			isa = PBXGroup;
+			children = (
+				4C6F85051835250400C3BAD6 /* SAHolidays */,
+				4C6F851E1835250400C3BAD6 /* SAHolidaysTests */,
+				4C6F84FE1835250400C3BAD6 /* Frameworks */,
+				4C6F84FD1835250400C3BAD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6F84FD1835250400C3BAD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F84FC1835250400C3BAD6 /* SAHolidays.app */,
+				4C6F85171835250400C3BAD6 /* SAHolidaysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6F84FE1835250400C3BAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F84FF1835250400C3BAD6 /* Foundation.framework */,
+				4C6F85011835250400C3BAD6 /* CoreGraphics.framework */,
+				4C6F85031835250400C3BAD6 /* UIKit.framework */,
+				4C6F85181835250400C3BAD6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6F85051835250400C3BAD6 /* SAHolidays */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F852E1835256500C3BAD6 /* NSDate+SAHolidays */,
+				4C6F850E1835250400C3BAD6 /* SAHolidaysAppDelegate.h */,
+				4C6F850F1835250400C3BAD6 /* SAHolidaysAppDelegate.m */,
+				4C6F85111835250400C3BAD6 /* Images.xcassets */,
+				4C6F85061835250400C3BAD6 /* Supporting Files */,
+			);
+			path = SAHolidays;
+			sourceTree = "<group>";
+		};
+		4C6F85061835250400C3BAD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F85071835250400C3BAD6 /* SAHolidays-Info.plist */,
+				4C6F85081835250400C3BAD6 /* InfoPlist.strings */,
+				4C6F850B1835250400C3BAD6 /* main.m */,
+				4C6F850D1835250400C3BAD6 /* SAHolidays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6F851E1835250400C3BAD6 /* SAHolidaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F85241835250400C3BAD6 /* SAHolidaysTests.m */,
+				4C6F851F1835250400C3BAD6 /* Supporting Files */,
+			);
+			path = SAHolidaysTests;
+			sourceTree = "<group>";
+		};
+		4C6F851F1835250400C3BAD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F85201835250400C3BAD6 /* SAHolidaysTests-Info.plist */,
+				4C6F85211835250400C3BAD6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6F852E1835256500C3BAD6 /* NSDate+SAHolidays */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F852F1835256500C3BAD6 /* NSDate+SAHolidays.h */,
+				4C6F85301835256500C3BAD6 /* NSDate+SAHolidays.m */,
+			);
+			path = "NSDate+SAHolidays";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6F84FB1835250400C3BAD6 /* SAHolidays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F85281835250400C3BAD6 /* Build configuration list for PBXNativeTarget "SAHolidays" */;
+			buildPhases = (
+				4C6F84F81835250400C3BAD6 /* Sources */,
+				4C6F84F91835250400C3BAD6 /* Frameworks */,
+				4C6F84FA1835250400C3BAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAHolidays;
+			productName = SAHolidays;
+			productReference = 4C6F84FC1835250400C3BAD6 /* SAHolidays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6F85161835250400C3BAD6 /* SAHolidaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F852B1835250400C3BAD6 /* Build configuration list for PBXNativeTarget "SAHolidaysTests" */;
+			buildPhases = (
+				4C6F85131835250400C3BAD6 /* Sources */,
+				4C6F85141835250400C3BAD6 /* Frameworks */,
+				4C6F85151835250400C3BAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6F851D1835250400C3BAD6 /* PBXTargetDependency */,
+			);
+			name = SAHolidaysTests;
+			productName = SAHolidaysTests;
+			productReference = 4C6F85171835250400C3BAD6 /* SAHolidaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6F84F41835250400C3BAD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAHolidays;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shmoopi LLC";
+				TargetAttributes = {
+					4C6F85161835250400C3BAD6 = {
+						TestTargetID = 4C6F84FB1835250400C3BAD6;
+					};
+				};
+			};
+			buildConfigurationList = 4C6F84F71835250400C3BAD6 /* Build configuration list for PBXProject "SAHolidays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C6F84F31835250400C3BAD6;
+			productRefGroup = 4C6F84FD1835250400C3BAD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6F84FB1835250400C3BAD6 /* SAHolidays */,
+				4C6F85161835250400C3BAD6 /* SAHolidaysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6F84FA1835250400C3BAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F850A1835250400C3BAD6 /* InfoPlist.strings in Resources */,
+				4C6F85121835250400C3BAD6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F85151835250400C3BAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F85231835250400C3BAD6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6F84F81835250400C3BAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F85311835256500C3BAD6 /* NSDate+SAHolidays.m in Sources */,
+				4C6F850C1835250400C3BAD6 /* main.m in Sources */,
+				4C6F85101835250400C3BAD6 /* SAHolidaysAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F85131835250400C3BAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F85251835250400C3BAD6 /* SAHolidaysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6F851D1835250400C3BAD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6F84FB1835250400C3BAD6 /* SAHolidays */;
+			targetProxy = 4C6F851C1835250400C3BAD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6F85081835250400C3BAD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6F85091835250400C3BAD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C6F85211835250400C3BAD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6F85221835250400C3BAD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6F85261835250400C3BAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6F85271835250400C3BAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6F85291835250400C3BAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAHolidays/SAHolidays-Prefix.pch";
+				INFOPLIST_FILE = "SAHolidays/SAHolidays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6F852A1835250400C3BAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAHolidays/SAHolidays-Prefix.pch";
+				INFOPLIST_FILE = "SAHolidays/SAHolidays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C6F852C1835250400C3BAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SAHolidays.app/SAHolidays";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAHolidays/SAHolidays-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SAHolidaysTests/SAHolidaysTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4C6F852D1835250400C3BAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SAHolidays.app/SAHolidays";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAHolidays/SAHolidays-Prefix.pch";
+				INFOPLIST_FILE = "SAHolidaysTests/SAHolidaysTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6F84F71835250400C3BAD6 /* Build configuration list for PBXProject "SAHolidays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F85261835250400C3BAD6 /* Debug */,
+				4C6F85271835250400C3BAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6F85281835250400C3BAD6 /* Build configuration list for PBXNativeTarget "SAHolidays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F85291835250400C3BAD6 /* Debug */,
+				4C6F852A1835250400C3BAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C6F852B1835250400C3BAD6 /* Build configuration list for PBXNativeTarget "SAHolidaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F852C1835250400C3BAD6 /* Debug */,
+				4C6F852D1835250400C3BAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6F84F41835250400C3BAD6 /* Project object */;
+}
